@@ -9,11 +9,12 @@ $precio=$_REQUEST["precio"];
 $foto_nombre = $_FILES["foto"]["name"];
 $foto_tipo = $_FILES["foto"]["type"];
 
+/*
 if ($foto_tipo == 'image/png'){
     echo "esta todo bien"; 
 }else{
     exit; 
-}
+}*/
 
 $destino = "img/". basename($foto_nombre);
 
