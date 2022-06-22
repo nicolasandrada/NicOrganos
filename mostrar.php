@@ -15,6 +15,10 @@ echo "<table border=1>";
     echo "<input type='hidden' name='id' value='{$dato['id']}' >";
     echo "<input type='submit' value='eliminar' onclick='return confirm('')'>";
     echo "</form></td>";
+    echo "<td><form action='modificar.php' method='post'>";
+    echo "<input type='hidden' name='id' value='{$dato['id']}' >";
+    echo "<input type='submit' value='modificar'>";
+    echo "</form></td>";
     echo '<tr>';
   }
   ?>
